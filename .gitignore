@@ -1,6 +1,6 @@
 .DS_Store
-credentials/*
-!credentials/.gitkeep
+resources/credentials/*
+!resources/credentials/.gitkeep
 .idea/
 results/*
 !results/.gitkeep
