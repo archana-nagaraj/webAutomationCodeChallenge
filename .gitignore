@@ -1,0 +1,7 @@
+.DS_Store
+credentials/*
+!credentials/.gitkeep
+.idea/
+results/*
+!results/.gitkeep
+
