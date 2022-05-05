@@ -6,9 +6,8 @@ Resource       ./credentials/${environment}Credentials.robot
 Resource       ./pageObjects/locators.robot
 
 *** Keywords ***
-
-Open Browser To Libreview Page
-    Open Browser    ${LOGIN_URL}    ${BROWSER}
+Open Default Browser To Libreview Page
+    Open Browser    ${LOGIN_URL}    ${BROWSER_DEFAULT}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
 
