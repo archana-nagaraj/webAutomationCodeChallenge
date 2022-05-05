@@ -3,7 +3,7 @@ Resource     ../../Resources/commonResources.robot
 
 *** Test Cases ***
 Web Automation Code Challenge: Step1: Go to https://www.libreview.com/
-    Open Browser To Libreview Page
+    Open Default Browser To Libreview Page
     Close trust consent window
     Verify Select Country and Language page is launched
 Step2: Select Country Language and click Submit to continue
