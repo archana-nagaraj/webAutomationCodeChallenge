@@ -7,10 +7,11 @@ This project is to automate the login functionality of www.libreview.com website
 ## Table of Contents
 * [Technologies](#technologies)
 * [Installation](#installation)
-  * [Pre-requisites](#prerequisites)
+  * [Pre-Requisites](#pre-requisites)
   * [Steps](#Steps)
+  * [Post Installation Steps](#post-installation-steps)
 * [Usage](#usage)
-* [Test Results](#testresults)
+* [Test Results](#test-results)
 * [License](#license)
 * [Questions](#questions)
 
@@ -21,7 +22,7 @@ This project is to automate the login functionality of www.libreview.com website
 * [IDE: PyCharm](https://www.jetbrains.com/pycharm/)
 
 ## Installation 
- ### Pre-Requsites
+ ### Pre-Requisites
  - Python 3
  - Robot Framework
  - Selenium
@@ -62,10 +63,9 @@ environment argument is mandatory
 ## Test Results
 * [ExecutionVideo](https://drive.google.com/file/d/1qUg2zpqKNIstvyuhPxGtNYF42aCLOSSP/view?usp=sharing)<br><br>
 
-* Screenshot: log.html
-![Test Log](./results/testlog_screenshot.png)<br><br>
-* Screenshot: report.html
-![Test Log](./results/testreport_screenshot.png)
+* Test Report Screenshots:
+![validLoginTest](docs/screenshots/TestReport_validLogin.png)<br><br>
+![browser Compatibility Test](docs/screenshots/TestReport_browserCompatibility.png)
 
 ## License 
 This repository is licensed under the [MIT license](./LICENSE).
